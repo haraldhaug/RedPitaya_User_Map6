@@ -113,8 +113,5 @@ compile the example software:
 make rp_usr
 execute the example software (include library path, see redpitaya documentation):
 LD_LIBRARY_PATH=/opt/redpitaya/lib ./rp_usr
----------------------------------------------------------
-ISSUE: I could not get any reaction on the LEDs -- I do not know why.
---------------------------------------------------------------------
-
+there should be a reaction on the LEDs
 

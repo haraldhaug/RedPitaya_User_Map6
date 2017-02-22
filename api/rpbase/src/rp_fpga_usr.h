@@ -3,10 +3,11 @@
 
 #include <stdint.h>
 #include <stdbool.h>
+#include <stdio.h>
 
 // Base address for FPGA_USR
-static const int RP_FPGA_USR_BASE_ADDR = 0x00600000;
-static const int RP_FPGA_USR_BASE_SIZE = 0x0000000C;
+static const size_t RP_FPGA_USR_BASE_ADDR = 0x40600000;
+static const size_t RP_FPGA_USR_BASE_SIZE = 0x0000000C;
 
 // fpga usr structure declaration
 typedef struct rp_fpga_usr_control_s {
